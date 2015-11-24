@@ -5,7 +5,7 @@
 
 	<groupId>renatoback.paripassu.teste.analistaIII</groupId>
 	<artifactId>gefi-server</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<packaging>war</packaging>
 	<name>Gefi Server</name>
 	<description>Servidor para o Sistema Gefi</description>
@@ -63,7 +63,6 @@
 		<java.version>1.8</java.version>
 	</properties>
 
-
 	<build>
 		<plugins>
 			<plugin>
@@ -86,4 +85,3 @@
 		</pluginRepository>
 	</pluginRepositories>
 </project>
-
