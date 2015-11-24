@@ -87,10 +87,6 @@ O servidor disponibiliza um WebSocket endpoint no endereço *BASE_URL/ultimaSenh
 
 O Gerente pode realizar as seguintes operações:
 
-## Testes
-
-O sistema possui testes para os serviços disponibilizados e são sempre executados ao compilar a aplicação através do Maven.
-
 * Reiniciar Senha Normal
 
 	$ curl -i -X PUT BASE_URL/senha/N
@@ -121,3 +117,7 @@ O sistema possui testes para os serviços disponibilizados e são sempre executa
 	  "message": "Nenhuma senha para chamar.",
 	  "path": "/gefi-server/senha"
 	}
+
+## Testes
+
+O sistema possui testes para os serviços disponibilizados e são sempre executados ao compilar a aplicação através do Maven.
